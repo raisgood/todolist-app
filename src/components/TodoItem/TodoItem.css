@@ -1,0 +1,23 @@
+/*To Do List Items*/
+
+@media only screen and (min-width: 100px) {
+    .todo-item {
+        padding: 17px;
+        border: 4px solid rgb(88, 11, 11);
+        box-shadow: 0 0 20px 10px rgba(168, 51, 51, 0.4) inset;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: initial;
+    }
+    /*Pencil clicker*/
+    .edit-todolist {
+        width: 25px;
+        cursor: pointer;
+        text-align: center;
+        height: 30px;
+        margin-right: 15px;
+    }
+}

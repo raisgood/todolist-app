@@ -1,0 +1,62 @@
+@media only screen and (max-width: 800px) {
+     :root {
+        --main-input-color: #8854d0;
+        --hover-input-color: #a47cdb;
+    }
+    form {
+        width: initial;
+        height: initial;
+        flex: inherit;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: large;
+    }
+    input {
+        padding: 7px;
+        display: flex;
+        text-align: center;
+        font-family: curisve, bold;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        color: black;
+    }
+    button {
+        font-family: cursive, bold;
+        padding: 6px;
+        color: var(--main-input-color);
+        text-decoration: none;
+        font-weight: 500;
+        box-shadow: 2px 2px 6px rgba(156, 123, 51, 0.664);
+        cursor: pointer;
+        color: whitesmoke;
+        background-color: rgb(87, 9, 84);
+        margin-bottom: 20px;
+        margin-left: 20px;
+        float: left;
+        display: inline;
+    }
+    button:hover {
+        background-color: var(--hover-input-color);
+        border: 2px solid var(--hover-input-color);
+        color: whitesmoke;
+        box-shadow: 2px 2px 6px rgba(106, 54, 158, 0.9);
+    }
+    label {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .label2 {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,35 @@
+/*Body*/
+
+@media only screen and (min-width: 300px) {
+    body {
+        margin: 0;
+        font-family: cursive, Bold;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: #f7e3dc;
+    }
+    code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    }
+}
+
+
+/*@media only screen and (min-width: 450px) {
+    .todo-item {
+        display: flex;
+    }
+    label {
+        display: inline;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 350px;
+    }
+    .label2 {
+        display: inline;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 320px;
+    }
+}*/
