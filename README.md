@@ -1,4 +1,4 @@
-https://raisgood.github.io/todolist
+https://raisgood.github.io/todolist-app
 
 This is a ReactJS project that allows you to schedule your todolist.  It provide the Activity and Time for your day.
 
